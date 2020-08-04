@@ -1,0 +1,27 @@
+.pagination_container{
+    justify-content: center !important;
+    background-color:$lightgray;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pagination {
+    display: flex;
+    padding-left: 0;
+    list-style: none;
+    border-color:$nickel;
+    border-radius: 6px;
+  }
+
+  .pagination_text{
+    color:$eerie;
+  }
+
+  .page-item.active .page-link {
+    z-index: 3;
+    color: #fff;
+    background-color:$nickel;
+    border-color:$nickel;
+  }

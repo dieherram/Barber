@@ -1,0 +1,38 @@
+.articleimagen{
+    width:200px;
+    height:200px;
+    border-radius:150px; 
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.textonaomi{
+    text-align: center;
+}
+
+.enlacenaomi{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: indianred;
+    transition: 0.2s;
+}
+
+.enlacenaomi:hover{
+    color:grey
+}
+
+.enlacenaomi:active{
+    color: honeydew;
+}
+
+a:link, a:visited, a:active {
+    text-decoration:none;
+}
+
+.textoverticalcentrado{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
