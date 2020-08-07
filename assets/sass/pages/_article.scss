@@ -11,19 +11,28 @@
     text-align: center;
 }
 
+.textodepelos{
+    @extend %robotolight;
+    color: $ruddy;
+}
+
+.nombrenaomi{
+    @extend %playfairitalic;
+    font-size: $x-large;
+}
+
 .enlacenaomi{
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    color: indianred;
+    @extend %robotoregular;
+    color: $fuzzy;
     transition: 0.2s;
 }
 
 .enlacenaomi:hover{
-    color:grey
+    color: $nickel;
 }
 
 .enlacenaomi:active{
-    color: honeydew;
+    color: $platinum;
 }
 
 a:link, a:visited, a:active {

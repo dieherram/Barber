@@ -9938,6 +9938,34 @@ img {
   font-weight: 400;
 }
 
+.enlacenaomi {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+.textodepelos {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+
+.nombrenaomi, .playfairitalicheader {
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+  font-weight: 900;
+}
+
+.btn {
+  border-radius: 25px;
+}
+
+.btn:hover {
+  background-color: #e6e7e7;
+}
+
+.btn:focus {
+  border-color: #d1d1d1;
+}
+
 .tamaño_logo {
   width: 90px;
   height: 50px;
@@ -9950,9 +9978,6 @@ img {
 }
 
 .playfairitalicheader {
-  font-family: "Playfair Display", serif;
-  font-style: italic;
-  font-weight: 900;
   font-size: 5vw;
 }
 
@@ -9977,18 +10002,6 @@ img {
 
 .fas:hover {
   font-size: 7vh;
-}
-
-.btn {
-  border-radius: 25px;
-}
-
-.btn:hover {
-  background-color: #DADADA;
-}
-
-.btn:focus {
-  border-color: #DADADA;
 }
 
 .pagination_container {
@@ -10032,19 +10045,25 @@ img {
   text-align: center;
 }
 
+.textodepelos {
+  color: #d76c69;
+}
+
+.nombrenaomi {
+  font-size: 30x;
+}
+
 .enlacenaomi {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  color: indianred;
+  color: #e56353;
   transition: 0.2s;
 }
 
 .enlacenaomi:hover {
-  color: grey;
+  color: #6c6e70;
 }
 
 .enlacenaomi:active {
-  color: honeydew;
+  color: #e6e7e7;
 }
 
 a:link, a:visited, a:active {
@@ -10063,7 +10082,7 @@ a:link, a:visited, a:active {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #292A2E;
+  background-color: #222323;
 }
 
 .piedepaginalogo {
